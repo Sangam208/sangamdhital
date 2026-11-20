@@ -1,0 +1,8 @@
+[build]
+  # Production build (vite build). Do not use `npm run dev` here: it starts a
+  # long-running dev server that never exits and makes the build time out.
+  command = "npm run build"
+  # Nitro auto-detects Netlify and writes static assets to dist/ and the SSR
+  # function to .netlify/, which Netlify picks up automatically.
+  publish = "dist"
+
